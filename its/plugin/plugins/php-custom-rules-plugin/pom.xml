@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.sonarsource.it.php</groupId>
+    <groupId>org.sonarsource.php</groupId>
     <artifactId>it-php-plugin-plugins</artifactId>
     <version>2.9-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.sonarsource.it.php</groupId>
+  <groupId>org.sonarsource.php</groupId>
   <artifactId>php-custom-rules-plugin</artifactId>
   <packaging>sonar-plugin</packaging>
 
