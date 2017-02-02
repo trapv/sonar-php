@@ -56,7 +56,7 @@ public class TrailingWhitespaceCheck extends PHPVisitorCheck {
     }
   }
 
-  private boolean test(String line) {
+  private static boolean test(String line) {
     return line.length() > 0 && WHITESPACE_PATTERN.matcher(line.subSequence(line.length() - 1, line.length())).matches();
   }
 
