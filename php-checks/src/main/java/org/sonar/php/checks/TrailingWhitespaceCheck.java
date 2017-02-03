@@ -47,7 +47,6 @@ public class TrailingWhitespaceCheck extends PHPVisitorCheck {
       while (it.hasNext()) {
         if (test(it.next())) {
           context().newLineIssue(this, i + 1, MESSAGE);
-          break;
         }
         i++;
       }
